@@ -9,7 +9,7 @@ import { useContext } from 'react'
 const Navigation = () => {
 
 
-	const { cart } = useContext(CartContext)
+	const cart = useContext(CartContext)
 
 
 
